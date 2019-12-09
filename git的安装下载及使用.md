@@ -58,5 +58,3 @@
     git config --global core.quotepath false
     git config --global core.editor "vim"
 ```
-
-接下来
