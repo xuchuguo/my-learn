@@ -26,12 +26,11 @@
 
 
 -  访问index不存在的元素的时候返回undefined
-
     ```
-        var a = new Array(1,2,3)
-        a[100] = 100
-        console.log(a.length)  // 101
-        console.log(a)  // [1,2,3,undefined x 97,100]
+    var a = new Array(1,2,3)
+    a[100] = 100
+    console.log(a.length)  // 101
+    console.log(a)  // [1,2,3,undefined x 97,100]
     ```
 - 设置数组的length可以改变数组
     ```
