@@ -14,7 +14,7 @@
 - Array.join(separator) : 用于把数组中的所有元素放入一个字符串。
     - separator : 可选。指定要使用的分隔符。如果省略该参数，则使用逗号作为分隔符。
 
-- Array.concat(arrayX,arrayX,......,arrayX) : concat() 方法用于连接两个或多个数组。//该方法不会改变现有的数组，而仅仅会返回被连接数组的一个副本。
+- Array.concat(arrayX,arrayX,......,arrayX) : concat() 方法用于连接两个或多个数组。//该方法不会改变现有的数组，而仅仅会返回被连接数组的一个副本。a.concat(b)返回一个a和b共同组成的新数组
     - arrayX : 必需。该参数可以是具体的值，也可以是数组对象。可以是任意多个。
 
 - Array.reverse() : 该方法会改变原来的数组，而不会创建新的数组。
