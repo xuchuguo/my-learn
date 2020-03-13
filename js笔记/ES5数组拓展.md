@@ -69,20 +69,16 @@
     - value，一个初始值,可选
     ```
     var arr = [3,4,5]
-    arr.reduce(function(v1,v2){
+    var arr2 = arr.reduce(function(v1,v2){
         return v1 + v2
-    })  //12
-    arr.reduce(function(v1,v2){
-        return v1 * v2 
-    })  //60
+    })  
+    console.log(arr2) //12
 
     //含value初始值
-    arr.reduce(function(v1,v2){
+    var arr3 = arr.reduce(function(v1,v2){
         return v1 + v2
-    },10)  //22
-    arr.reduce(function(v1,v2){
-        return v1 * v2 
-    },10)  //600
+    },10)
+    console.log(arr3) //22
     ```
 
 
