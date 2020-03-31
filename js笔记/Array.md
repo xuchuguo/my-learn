@@ -22,9 +22,6 @@
 - Array.sort(sortby) : sort() 方法用于对数组的元素进行排序。
     - sortby : 可选。规定排序顺序。必须是函数。
 
-- 
-
-
 -  访问index不存在的元素的时候返回undefined
     ```
     var a = new Array(1,2,3)
